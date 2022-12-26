@@ -1,0 +1,19 @@
+{
+    "checkForBanner": true,
+    "debugLog": false,
+    "extendOutputFunction": "async ({ data, item, product, images, fns, name, request, variants, context, customData, input, Apify }) => {\n  return item;\n}",
+    "extendScraperFunction": "async ({ fns, customData, Apify, label }) => {\n \n}",
+    "fetchHtml": false,
+    "maxConcurrency": 10,
+    "maxRequestRetries": 3,
+    "maxRequestsPerCrawl": 0,
+    "proxyConfig": {
+        "useApifyProxy": true,
+        "apifyProxyCountry": "US"
+    },
+    "startUrls": [
+        {
+            "url": "http://ilovehelenas.com"
+        }
+    ]
+}
