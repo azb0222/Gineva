@@ -1,0 +1,6 @@
+framework module Pods_Gineva {
+  umbrella header "Pods-Gineva-umbrella.h"
+
+  export *
+  module * { export * }
+}
